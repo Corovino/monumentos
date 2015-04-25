@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.app.monumento.monumentapp.Imagenes"
+    android:background="#ffc8e90a">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:weightSum="1">
+
+       <!-- TODO: Update blank fragment layout -->
+       <GridView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/gr_main_monumentos"
+           android:verticalSpacing="10dp"
+           android:stretchMode="columnWidth"
+           android:columnWidth="180dp"
+           android:numColumns="auto_fit"
+           android:layout_weight="0.7"
+           android:background="#FAFAFA"></GridView>
+
+
+   </LinearLayout>
+
+</FrameLayout>
